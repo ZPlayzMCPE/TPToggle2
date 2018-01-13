@@ -1,6 +1,6 @@
 <?php
 namespace Zeao\commands;
-use TPToggle\Main;
+use Zeao\Main;
 use pocketmine\command\Command;
 use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
