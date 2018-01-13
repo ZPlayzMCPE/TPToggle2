@@ -5,7 +5,7 @@ namespace Zeao;
 use Zeao\commands\TPToggleCommand;
 use Zeao\commands\TPto2Command;
 use Zeao\util\TeleportManager;
-use pocketmine\util\TextFormat;
+use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase {
