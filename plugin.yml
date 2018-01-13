@@ -1,6 +1,6 @@
 name: TPToggle
 main: Zeao\Main
-version: 0.0.2
+version: 0.0.3
 api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
 load: STARTUP
 author: Zeao
@@ -9,5 +9,5 @@ website: Not showing.
 commands:
  tptoggle:
   description: toggles /tp
-  permission: pocketmine.command.tptoggle
+  permission: tptoggle.command.tptoggle
   default: false
