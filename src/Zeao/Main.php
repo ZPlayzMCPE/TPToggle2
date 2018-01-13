@@ -13,9 +13,8 @@ class Main extends PluginBase {
     protected $teleportManager;
     public function onEnable() {
         self::$plugin = $this;
-        $this->saveDefaultConfig();
         $this->teleportManager = new TeleportManager($this);
-        $this->getCommand('tpto')->setExecutor(new TptoCommand($this));
+        $this->getCommand('tpto')->setExecutor(new Tpto2Command($this));
         $this->getCommand('tptoggle')->setExecutor(new TpToggleCommand($this));
    }
    public function onDisable() {
