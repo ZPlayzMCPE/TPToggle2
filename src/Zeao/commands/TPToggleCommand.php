@@ -6,7 +6,7 @@ use pocketmine\command\CommandExecutor;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-class TpToggleCommand implements CommandExecutor {
+class TPToggleCommand implements CommandExecutor {
     private $plugin;
     private $tpManager;
     public function __construct(Main $plugin) {
