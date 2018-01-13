@@ -12,7 +12,7 @@ class TPto2Command {
      * @param BaseAPI $api
      */
     public function __construct(Main $plugin){
-        parent::__construct($api, "tpto", "Teleport to a player.", "<player>", false, ["s"]);
+        parent::__construct("tpto");
         $this->setPermission("tptoggle.tpto");
     }
     /**
