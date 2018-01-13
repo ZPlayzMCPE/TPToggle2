@@ -11,3 +11,7 @@ commands:
   description: toggles /tp
   permission: tptoggle.command.tptoggle
   default: false
+ tpto:
+  description: Teleport to a player.
+  permission: tptoggle.command.tpto
+  default: false
