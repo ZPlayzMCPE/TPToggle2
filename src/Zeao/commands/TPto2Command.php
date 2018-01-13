@@ -6,7 +6,7 @@ use Zeao\util\TeleportManager;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-class TPto2Command extends Commands {
+class TPto2Command implements CommandExecutor {
     /**
      * @param BaseAPI $api
      */
