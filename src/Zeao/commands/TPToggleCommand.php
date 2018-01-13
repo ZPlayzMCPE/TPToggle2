@@ -1,5 +1,5 @@
 <?php
-namespace TPToggle\commands;
+namespace Zeao\commands;
 use TPToggle\Main;
 use pocketmine\command\Command;
 use pocketmine\command\CommandExecutor;

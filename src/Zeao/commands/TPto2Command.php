@@ -1,8 +1,8 @@
 <?php
 declare(strict_types = 1);
-namespace TPToggle\commands;
-use TPToggle\Main;
-use TPToggle\util\TeleportManager;
+namespace Zeao\commands;
+use Zeao\Main;
+use Zeao\util\TeleportManager;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;

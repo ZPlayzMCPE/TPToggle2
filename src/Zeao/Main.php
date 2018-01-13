@@ -1,8 +1,8 @@
 <?php
-namespace TPToggle;
-use TPToggle\commands\TpToggleCommand;
-use TPToggle\commands\TptoCommand;
-use TPToggle\util\TeleportManager;
+namespace Zeao;
+use Zeao\commands\TpToggleCommand;
+use Zeao\commands\TptoCommand;
+use Zeao\util\TeleportManager;
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
     private static $plugin;

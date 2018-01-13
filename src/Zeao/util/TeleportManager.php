@@ -1,6 +1,6 @@
 <?php
-namespace TPToggle\util;
-use TPToggle\Main;
+namespace Zeao\util;
+use Zeao\Main;
 class TeleportManager {
     private $plugin;
     private $status;
