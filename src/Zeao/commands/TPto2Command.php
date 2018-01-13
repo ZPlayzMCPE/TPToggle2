@@ -20,8 +20,7 @@ class TPto2Command {
      * @return bool
      */
     public function execute(CommandSender $sender, string $alias, array $args): bool{
-        case "tpto":
-        if(!$this->hasPermission("tptoggle.tpto");
+        if(!$this->hasPermission("tptoggle.command.tpto");
             return true;
         }
         if(!$sender instanceof Player || count($args) !== 1){
