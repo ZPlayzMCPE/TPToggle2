@@ -9,11 +9,6 @@ use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 class TPto2Command {
     /**
-     * @param BaseAPI $api
-     */
-    public function __construct(Main $plugin){
-    }
-    /**
      * @param CommandSender $sender
      * @param string $alias
      * @param array $args
