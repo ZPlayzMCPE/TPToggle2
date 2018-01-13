@@ -12,7 +12,6 @@ class TPto2Command {
      * @param BaseAPI $api
      */
     public function __construct(Main $plugin){
-        $this->setPermission("tptoggle.tpto");
     }
     /**
      * @param CommandSender $sender
@@ -22,7 +21,7 @@ class TPto2Command {
      */
     public function execute(CommandSender $sender, string $alias, array $args): bool{
         case "tpto":
-        i(!$this->hasPermission("tptoggle.tpto");
+        if(!$this->hasPermission("tptoggle.tpto");
             return true;
         }
         if(!$sender instanceof Player || count($args) !== 1){
