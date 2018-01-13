@@ -1,0 +1,13 @@
+name: TPToggle
+main: TPToggle\Main
+version: 0.0.2
+api: [3.0.0-ALPHA7, 3.0.0-ALPHA8, 3.0.0-ALPHA9, 3.0.0-ALPHA10]
+load: STARTUP
+author: Zeao
+description: Teleport toggle (/tp)
+website: Not showing.
+commands:
+ tptoggle:
+  description: toggles /tp
+  permission: pocketmine.command.tptoggle
+  default: false
