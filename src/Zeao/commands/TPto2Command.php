@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-class TPto2Command implements CommandExecutor {
+class TPto2Command extends Main {
     /**
      * @param BaseAPI $api
      */
@@ -21,7 +21,7 @@ class TPto2Command implements CommandExecutor {
      * @param array $args
      * @return bool
      */
-    public function onCommand(CommandSender $sender, string $label, array $args): bool{
+    public function execute(CommandSender $sender, string $alias, array $args): bool{
         if(!$this->testPermission($sender)){
             return false;
         }
