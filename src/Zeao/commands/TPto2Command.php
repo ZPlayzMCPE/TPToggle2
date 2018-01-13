@@ -8,6 +8,9 @@ use pocketmine\command\CommandExecutor;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
 class TPto2Command {
+     public function __construct(Main $plugin) {
+        $this->plugin = $plugin;
+        $this->tpManager = $plugin->getTeleportManager();
     /**
      * @param CommandSender $sender
      * @param string $alias
