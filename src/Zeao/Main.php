@@ -1,7 +1,7 @@
 <?php
 namespace Zeao;
-use Zeao\commands\TpToggleCommand;
-use Zeao\commands\TptoCommand;
+use Zeao\commands\TPToggleCommand;
+use Zeao\commands\TPto2Command;
 use Zeao\util\TeleportManager;
 use pocketmine\plugin\PluginBase;
 class Main extends PluginBase {
