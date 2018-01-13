@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\command\CommandExecutor;
 use pocketmine\Player;
 use pocketmine\utils\TextFormat;
-class TPto2Command extends Main {
+class TPto2Command {
     /**
      * @param BaseAPI $api
      */
